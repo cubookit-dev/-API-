@@ -1,0 +1,1 @@
+pm2 start "C:\Users\CUBOOK\AppData\Roaming\npm\node_modules\serve\bin\serve.js" --name ebook -- -s "C:\Users\CUBOOK\Documents\GitHub\ebook_mail\Ebook\dist" -l 3005
