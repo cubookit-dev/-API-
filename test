@@ -1,11 +1,4 @@
 pm2 start "C:\Users\CUBOOK\AppData\Roaming\npm\node_modules\serve\bin\serve.js" --name ebook -- -s "C:\Users\CUBOOK\Documents\GitHub\ebook_mail\Ebook\dist" -l 3005
 
 
-
-
-pm2 start "C:\Users\CUBOOK\AppData\Roaming\npm\node_modules\serve\bin\serve.js" --name ebook --cwd C:\sites -- -s "C:\Users\CUBOOK\Documents\GitHub\ebook_mail\Ebook\dist" -l 3005
-
-
-
-
-Invoke-WebRequest -Uri http://localhost/ -Headers @{Host="ebook.chulabook.com"} -MaximumRedirection 0 -UseBasicParsing
+Invoke-WebRequest -Uri https://localhost/ -Headers @{Host="ebook.chulabook.com"} -UseBasicParsing
